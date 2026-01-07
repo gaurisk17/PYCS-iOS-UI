@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5E96E8ED2DAC75A100316FFC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E96E8EC2DAC75A100316FFC /* Property List.plist */; };
+		5E96E8EE2DAC75A100316FFC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E96E8EC2DAC75A100316FFC /* Property List.plist */; };
+		5E96E8EF2DAC75A100316FFC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E96E8EC2DAC75A100316FFC /* Property List.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5E38564A2DAB878C002FC190 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +33,25 @@
 		5E3856392DAB878A002FC190 /* PYCS-FINAL-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PYCS-FINAL-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3856492DAB878C002FC190 /* PYCS-FINAL-APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PYCS-FINAL-APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3856532DAB878C002FC190 /* PYCS-FINAL-APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PYCS-FINAL-APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E96E8EC2DAC75A100316FFC /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5EA37C482E7DA17700883F02 /* Exceptions for "PYCS-FINAL-APP" folder in "PYCS-FINAL-APP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5E3856382DAB878A002FC190 /* PYCS-FINAL-APP */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5E38563B2DAB878A002FC190 /* PYCS-FINAL-APP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5EA37C482E7DA17700883F02 /* Exceptions for "PYCS-FINAL-APP" folder in "PYCS-FINAL-APP" target */,
+			);
 			path = "PYCS-FINAL-APP";
 			sourceTree = "<group>";
 		};
@@ -75,6 +95,7 @@
 		5E3856302DAB878A002FC190 = {
 			isa = PBXGroup;
 			children = (
+				5E96E8EC2DAC75A100316FFC /* Property List.plist */,
 				5E38563B2DAB878A002FC190 /* PYCS-FINAL-APP */,
 				5E38564C2DAB878C002FC190 /* PYCS-FINAL-APPTests */,
 				5E3856562DAB878C002FC190 /* PYCS-FINAL-APPUITests */,
@@ -212,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E96E8ED2DAC75A100316FFC /* Property List.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E96E8EE2DAC75A100316FFC /* Property List.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E96E8EF2DAC75A100316FFC /* Property List.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +423,7 @@
 				DEVELOPMENT_TEAM = 9FCGJ2M9S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PYCS-FINAL-APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +453,7 @@
 				DEVELOPMENT_TEAM = 9FCGJ2M9S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PYCS-FINAL-APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

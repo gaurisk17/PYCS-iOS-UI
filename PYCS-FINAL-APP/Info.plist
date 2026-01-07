@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Let the app read picked files in place (fixes "data couldn't be read" with document picker) -->
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+
+    <!-- (Optional but handy) Lets you drop files into the app via Finder/iTunes Files -->
+    <key>UIFileSharingEnabled</key>
+    <true/>
+
+    <!-- Whatever you already had -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict/>
+    </array>
+</dict>
+</plist>

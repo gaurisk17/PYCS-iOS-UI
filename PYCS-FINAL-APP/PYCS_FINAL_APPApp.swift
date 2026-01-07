@@ -11,7 +11,7 @@ import SwiftUI
 struct PYCS_FINAL_APPApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DashboardView()
         }
     }
 }
